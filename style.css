@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.33%;
+}
+body{
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: #e0e6ea;
+    color: #112030;
+    font-family: system-ui;
+}
+.subject-line{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.flight-el{
+    width:40rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin:2rem auto;
+    background-color:#ffff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.flight-el .input-col-2{
+    display: flex;
+    gap: 2rem;
+}
+.flight-el input[type="date"]{
+    width: 100%;
+    display: inline-block;
+    margin-top: .5rem;
+}
+.flight-el input[type="text"]{
+   margin-bottom: 1rem;
+}
+.flight-el input{
+    background-color: #e0e6ea;
+    border: none;
+    height: 4.5rem;
+    border-radius: .4em;
+    padding: .5rem 1rem;
+    font-size: 1.6rem;
+}
+.flight-el input[type="submit"]{
+    background-color:#112030 ;
+    color: #e0e6ea;
+    margin-top: 1.5rem;
+}
+.flight-el label{
+    font-size: 1.5;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    font-family: sans-serif;
+}
